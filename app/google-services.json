@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "708753417409",
+    "firebase_url": "https://snapdeal-50fc2.firebaseio.com",
+    "project_id": "snapdeal-50fc2",
+    "storage_bucket": "snapdeal-50fc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708753417409:android:a8ba568f4f3f51479b6040",
+        "android_client_info": {
+          "package_name": "com.example.snapdeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708753417409-6ldqt7ojl2ikr44st4uhevk4bvab8hr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snapdeal",
+            "certificate_hash": "ba9e206b2317978aa97424e8639755cef44deb1f"
+          }
+        },
+        {
+          "client_id": "708753417409-h934acrdjt7qat8qud1d7g6a0o5cg3ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh3p-i1tNgf97BCTCwrA75Nl6FIKbLv3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708753417409-h934acrdjt7qat8qud1d7g6a0o5cg3ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

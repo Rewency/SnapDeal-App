@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchProductActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/r5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <EditText
+            android:id="@+id/Search_product_name"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:textSize="19sp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white"
+            android:padding="9dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:id="@+id/qr_btn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:drawableTop="@drawable/ic_camera_alt_black_24dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="9dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="279dp"
+            />
+        <Button
+            android:id="@+id/voice_btn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:drawableTop="@drawable/ic_mic_black_24dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="9dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="234dp"
+
+            />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Search"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="9dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="322dp"
+
+            />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r5"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
